@@ -50,7 +50,7 @@ class UrlModel extends Model
     {
         $builder = $this->db->table('tbl_urls');
         $builder->orderBy('created_at', 'DESC');
-        $query = $builder->get(0, $count);
+        $query = $builder->get($count,0);
       
         return $query->getResult();
     }
