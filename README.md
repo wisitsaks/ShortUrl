@@ -7,4 +7,4 @@ Installation Steps
 4. edit .env to set baseURL, CI_ENVIRONMENT and DATABASE settings
 
 
-Please try it on the demo url at http://url.thxsoft.com/
+Please try it on the demo url at https://url.thxsoft.com/
